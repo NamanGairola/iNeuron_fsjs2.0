@@ -3,10 +3,10 @@
 ## **Assignment 1**
 
 ## Original
-![](./images/original1.png)
+![](./images/original1.PNG)
 
 ## Task 1
-![](images/assign1task1.png)
+![](images/assign1task1.PNG)
 ```js
 //for changing Content in navbar to Projects
 document.querySelector("nav ul").lastElementChild.firstElementChild.innerText="Projects"
