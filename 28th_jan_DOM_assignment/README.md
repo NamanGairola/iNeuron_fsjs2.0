@@ -3,7 +3,7 @@
 ## **Assignment 1**
 
 ## Original
-![](images/original1.PNG)
+![](./images/original1.PNG)
 
 ## Task 1
 ![](images/assign1task1.png)
