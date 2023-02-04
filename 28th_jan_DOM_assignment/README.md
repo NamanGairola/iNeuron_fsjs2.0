@@ -3,7 +3,7 @@
 ## **Assignment 1**
 
 ## Original
-![](./images/original1.PNG)
+![](https://github.com/NamanGairola/iNeuron_fsjs2.0/blob/main/28th_jan_DOM_assignment/images/original1.PNG)
 
 ## Task 1
 ![](images/assign1task1.png)
