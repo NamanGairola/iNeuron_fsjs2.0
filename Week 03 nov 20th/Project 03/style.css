@@ -1,0 +1,192 @@
+/* You can not modify anything from the HTML file */
+/* You can only modify the CSS file */
+HTML 
+{ 
+    zoom:90%;
+    /* mistakenly made site at 90% zoom. */
+}
+.navbar-container
+{
+    margin-top: 50px;
+    display: flex;
+}
+.navbar-container div img
+{
+    margin-left: 100px;
+    width: 50%;
+}
+.list
+{
+    margin-left: 150px;
+    display: flex;
+    list-style-type: none;
+}
+.list-item
+{
+    margin-right: 40px;
+    font-family: orbitron;
+    font-size: 20px;
+    font-weight:500;
+}
+.list-item:first-child
+{
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 3px;
+}
+.list-item:first-child::after
+{
+   content: "";
+   position: absolute;
+   bottom: 0;
+   width: 75%;
+   left: 13%;
+   border-bottom: 3px solid black;
+   border-radius: 5px;
+}
+.list-item:nth-child(2)
+{
+    order: 3;
+}
+.list-item:nth-child(3)
+{
+    order: 2;
+}
+.list-item:nth-child(4)
+{
+    order: 4;
+}
+.list-item:nth-child(5)
+{
+    order: 5;
+}
+.button-group
+{
+    display:flex;
+    margin-left: auto;
+    margin-right: 100px;
+}
+.search-icon svg
+{
+    width: 70%;
+}
+.nav-button
+{
+    margin-left: 10px;
+    padding: 5px 40px 2px 40px;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: poppins;
+    background-color: #ffffff;
+    color: #515151;
+}
+.hero-container
+{
+    display: flex;
+}
+.square
+{
+    position: absolute;
+    top: 450px;
+    left: 250px;
+}
+.square img
+{
+    width: 75%;
+}
+.hero-container img[alt="person-hero-iamge"]
+{
+    position: absolute;
+    top: 190px;
+    left: 80px;
+    width: 30%; 
+}
+.globe
+{
+    position: absolute;
+    left: 750px;
+    top: 150px;
+}
+.globe img
+{
+    width: 80%;
+}
+.star:nth-of-type(2)
+{
+    position: absolute;
+    top: 690px;
+    left: 650px;
+}
+.star:nth-of-type(2) img
+{
+    width: 50%;
+}
+.star:nth-of-type(3)
+{
+    position: absolute;
+    top: 200px;
+    left: 1250px;
+}
+.star:nth-of-type(3) img
+{
+    width: 80%;
+}
+.hero-container-right
+{
+    position: absolute;
+    top: 250px;
+    left: 580px;
+    height :400px;
+    width: 800px;
+    text-align:center;
+}
+.hero-heading
+{
+    font-size: 50px;
+    font-family: orbitron;
+}
+.hero-description
+{
+    width: 70%;
+    font-family: poppins;
+    font-size: 13px;
+    margin-left: 100px;
+    color: #616161;
+}
+.button-email
+{
+    background-color: #ffffff;
+    color: #515151;
+    font-family: orbitron;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    margin-top: 70px;
+    margin-right: 10px;
+    border: 2px solid black;
+    font-weight:500;
+}
+.button-join
+{
+    background-color: #000000;
+    color: #ffffff;
+    font-family: orbitron;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight:500;
+}
+.contact-heading
+{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    font-family: poppins;
+    color: #515151;
+    font-weight: normal;
+    font-size: 20px;
+}
+.icons img
+{
+    width: 30px;
+    margin-right: 15px;
+}

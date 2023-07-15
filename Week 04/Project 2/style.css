@@ -1,0 +1,120 @@
+body
+{
+    font-family: 'IBM Plex Sans';
+    background-color: #f0f4f5;
+}
+.navbar
+{
+    display: flex;
+    margin-top: 20px;
+}
+.logo 
+{
+    margin-left: 50px;
+}
+.logo img
+{
+    width: 80%;
+}
+.navlist
+{
+    margin-left: auto;
+    margin-right: 100px;
+}
+.navlist ul
+{
+    display: flex;
+    list-style-type: none;
+}
+.navlist ul li
+{
+    margin-left: 50px;
+    font-weight: bold;
+}
+.navlist ul li:first-child
+{
+    color: #20bc7e;
+}
+.hero
+{
+    display: flex;
+}
+.hero-left
+{
+    width: 65%; 
+    position: relative;
+}
+.div1
+{
+    width: 80%;
+    margin-left: 50px;
+    display: inline-block;
+    margin-top: 50px;
+}
+.stethoscope
+{
+    position: absolute;
+    width: 60%;
+    right: 20px;
+    top: -30px;
+}
+.para1
+{
+    font-size: 70px;
+    font-weight:700;
+    margin: 10px;
+}
+.para2
+{
+    font-size: 19px;
+    font-weight: normal;
+    color: #89827c;
+}
+.bottomangle
+{
+    position: absolute;
+    right: 150px;
+}
+.butn
+{
+    font-size: 25px;
+    padding: 16px 37px;
+    font-family: 'IBM Plex Sans';
+    font-weight: bold;
+    border-radius: 50px;
+    border: 0px;
+    background-color: #20bc7e;
+    color: #ffffff;
+}
+.mouse
+{
+    position: absolute;
+    right: 90px;
+    top: 480px;
+}
+.hero-right
+{
+    width: 35%;
+    position: relative;
+}
+.greenbox
+{
+    width: 90%;
+    position: absolute;
+    top: 80px;
+    right: 10px;
+}
+.yellowbox
+{
+    width: 75%;
+    position: absolute;
+    top: 120px;
+    right: 0px;
+}
+.doctor
+{
+    width: 90%;
+    position: absolute;
+    top: -20px;
+    right: 10px;
+}

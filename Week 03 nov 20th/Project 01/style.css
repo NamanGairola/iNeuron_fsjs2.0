@@ -1,0 +1,90 @@
+/* You can not modify anything in the HTML */
+/* You can only modify the CSS file */
+body
+{
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.navbar-container
+{
+display: flex;
+margin-top: 30px;
+/* border: 2px solid red; */
+}
+.navbar-container div:first-child
+{
+/* border: 1px solid black; */
+width: 85px;
+padding: 5px;
+margin-left: 100px;
+}
+.navbar-container div:first-child img
+{
+width: 100%;
+}
+.list
+{
+display: flex;
+list-style-type: none;
+}
+.list-item
+{
+margin-right: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.list-item:nth-child(n+2)
+{
+color: #bfbfbf;
+}
+.button-group
+{
+margin-left: auto;
+margin-right: 100px;
+/* border:2px solid black; */
+}
+.nav-button
+{
+padding: 15px 20px;
+border-radius: 8px;
+border: 0px;
+background-color: #5955b3;
+color: #ffffff;
+}
+.banner-container
+{
+display: flex;
+margin-left: 100px;
+margin-top: 50px;
+}
+/* .banner-container div:first-child
+{
+width: 800px;
+} */
+.heading-text
+{
+color: #3c2f60;
+font-size: 50px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.heading-text span
+{
+color: #5955b3;
+}
+.description
+{
+font-family: Arial, Helvetica, sans-serif;
+color: #878787;
+}
+.banner-container div:last-child
+{
+width: 2400px;
+/* border: 1px solid black; */
+}
+.btn
+{
+margin-top: 20px;
+}
+.banner-container:last-child img
+{
+width: 100%;
+}
